@@ -1,0 +1,77 @@
+body_type,fuel_type,budget,seating,safety,comfort,performance,value,recommended_car
+hatchback,petrol,under_6l,5,7,7,6,9,Maruti Suzuki Alto K10
+hatchback,petrol,under_6l,5,6,7,6,9,Maruti Suzuki S-Presso
+hatchback,petrol,under_6l,5,7,7,7,9,Maruti Suzuki Celerio
+hatchback,petrol,under_6l,5,7,8,7,8,Hyundai Grand i10 Nios
+hatchback,petrol,under_6l,5,7,7,7,8,Tata Tiago
+hatchback,cng,under_6l,5,7,7,6,9,Maruti Suzuki Alto K10 CNG
+hatchback,cng,under_6l,5,7,7,6,9,Maruti Suzuki Celerio CNG
+hatchback,petrol,6l_10l,5,8,8,7,8,Maruti Suzuki Baleno
+hatchback,petrol,6l_10l,5,8,8,7,8,Hyundai i20
+hatchback,petrol,6l_10l,5,8,7,7,8,Toyota Glanza
+hatchback,petrol,6l_10l,5,7,8,7,8,Honda Jazz
+hatchback,petrol,6l_10l,5,8,8,8,9,Tata Altroz
+hatchback,cng,6l_10l,5,8,8,6,9,Maruti Suzuki Baleno CNG
+hatchback,diesel,6l_10l,5,7,7,7,8,Maruti Suzuki Swift Dzire Diesel
+hatchback,petrol,6l_10l,5,7,8,7,8,Volkswagen Polo
+sedan,petrol,6l_10l,5,8,8,7,8,Maruti Suzuki Dzire
+sedan,petrol,6l_10l,5,8,8,7,8,Honda Amaze
+sedan,petrol,6l_10l,5,8,8,7,8,Hyundai Aura
+sedan,cng,6l_10l,5,8,8,6,8,Maruti Suzuki Dzire CNG
+sedan,diesel,6l_10l,5,7,8,7,8,Honda Amaze Diesel
+sedan,petrol,10l_15l,5,8,8,8,8,Honda City
+sedan,petrol,10l_15l,5,8,8,8,7,Hyundai Verna
+sedan,petrol,10l_15l,5,8,8,8,7,Maruti Suzuki Ciaz
+sedan,diesel,10l_15l,5,8,8,8,7,Honda City Diesel
+sedan,petrol,10l_15l,5,8,9,8,7,Volkswagen Virtus
+sedan,petrol,10l_15l,5,8,9,8,7,Skoda Slavia
+sedan,diesel,10l_15l,5,8,8,8,7,Hyundai Verna Diesel
+sedan,petrol,15l_25l,5,9,9,9,7,Honda City Hybrid
+sedan,petrol,15l_25l,5,9,9,9,7,Hyundai Elantra
+suv,petrol,6l_10l,5,8,8,7,8,Tata Nexon
+suv,diesel,6l_10l,5,8,8,7,8,Tata Nexon Diesel
+suv,petrol,6l_10l,5,8,7,7,8,Maruti Suzuki Brezza
+suv,diesel,6l_10l,5,7,8,7,8,Maruti Suzuki Brezza Diesel
+suv,petrol,6l_10l,5,8,8,7,8,Kia Sonet
+suv,diesel,6l_10l,5,8,8,7,8,Kia Sonet Diesel
+suv,petrol,6l_10l,5,8,7,7,8,Hyundai Venue
+suv,petrol,10l_15l,5,9,8,8,8,Tata Punch
+suv,petrol,10l_15l,5,9,9,8,8,Hyundai Creta
+suv,diesel,10l_15l,5,9,8,8,8,Hyundai Creta Diesel
+suv,petrol,10l_15l,5,9,9,8,8,Kia Seltos
+suv,diesel,10l_15l,5,9,8,8,7,Kia Seltos Diesel
+suv,petrol,10l_15l,5,8,8,8,8,Maruti Suzuki Grand Vitara
+suv,petrol,10l_15l,5,8,8,8,8,Toyota Urban Cruiser Hyryder
+suv,petrol,10l_15l,7,8,8,7,7,Maruti Suzuki Ertiga
+suv,diesel,10l_15l,7,8,8,7,8,Maruti Suzuki Ertiga Diesel
+suv,petrol,10l_15l,7,8,8,7,8,Kia Carens
+suv,petrol,15l_25l,5,9,9,9,8,Tata Harrier
+suv,diesel,15l_25l,5,9,9,9,8,Tata Harrier Diesel
+suv,petrol,15l_25l,5,9,9,9,8,MG Hector
+suv,diesel,15l_25l,5,9,9,9,7,MG Hector Diesel
+suv,petrol,15l_25l,7,9,9,8,7,Tata Safari
+suv,diesel,15l_25l,7,9,9,8,8,Tata Safari Diesel
+suv,petrol,15l_25l,7,9,9,8,7,MG Hector Plus
+suv,petrol,15l_25l,7,9,8,8,7,Mahindra XUV700
+suv,diesel,15l_25l,7,9,9,9,8,Mahindra XUV700 Diesel
+suv,petrol,25l_50l,5,10,9,9,7,Jeep Compass
+suv,diesel,25l_50l,5,10,9,9,7,Jeep Compass Diesel
+suv,petrol,25l_50l,7,9,9,9,7,Hyundai Tucson
+suv,petrol,25l_50l,7,10,9,9,7,Toyota Fortuner
+suv,diesel,25l_50l,7,10,9,9,7,Toyota Fortuner Diesel
+suv,petrol,25l_50l,7,10,9,9,7,MG Gloster
+suv,diesel,25l_50l,7,10,9,9,7,Ford Endeavour Diesel
+electric,electric,6l_10l,5,8,7,6,8,Tata Tiago EV
+electric,electric,10l_15l,5,9,8,7,8,Tata Nexon EV
+electric,electric,10l_15l,5,9,8,7,7,MG Comet EV
+electric,electric,15l_25l,5,9,9,8,7,Tata Punch EV
+electric,electric,15l_25l,5,9,9,8,7,MG ZS EV
+electric,electric,15l_25l,5,9,9,9,7,Hyundai Ioniq 5
+electric,electric,25l_50l,5,10,9,9,7,Kia EV6
+electric,electric,25l_50l,5,10,10,10,7,BMW iX1
+luxury,petrol,25l_50l,5,10,10,9,6,Mercedes C-Class
+luxury,diesel,25l_50l,5,10,10,9,6,BMW 3 Series Diesel
+luxury,petrol,25l_50l,5,10,10,9,6,Audi A4
+luxury,petrol,25l_50l,5,10,9,9,6,Volvo XC40
+luxury,petrol,25l_50l,7,10,10,9,5,BMW X5
+luxury,petrol,25l_50l,7,10,10,10,5,Mercedes GLE
