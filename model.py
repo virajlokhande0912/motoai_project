@@ -67,19 +67,26 @@ def train_and_save():
     )
     clf.fit(X_train, y_train)
 
+    
     # ── 6. Evaluate ─────────────────────────────────────────────
+    
     y_pred = clf.predict(X_test)
     acc = accuracy_score(y_test, y_pred)
     print(f"\n[RESULT] Accuracy: {acc * 100:.1f}%")
     print("\n[CLASSIFICATION REPORT]")
+
+    # Fix for class mismatch issue
+    labels = np.unique(np.concatenate((y_test, y_pred)))
+
     print(
         classification_report(
-            y_test,
-            y_pred,
-            target_names=target_le.inverse_transform(np.unique(y_test)),
-            zero_division=0,
-        )
+        y_test,
+        y_pred,
+        labels=labels,
+        target_names=target_le.inverse_transform(labels),
+        zero_division=0,
     )
+)
 
     # Feature importances
     importances = clf.feature_importances_
