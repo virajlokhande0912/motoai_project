@@ -1518,12 +1518,10 @@ Write a 2-sentence intro for these results.`;
   const aiIntro = await callClaude(sysPrompt, userMsg);
 
   // ── Show Python ML badge if Flask backend responded ──────────────────────
-  let pythonMLBadge = '';
-  if (flaskPrediction && flaskPrediction.status === 'success') {
-    pythonMLBadge = `<div style="display:inline-flex;align-items:center;gap:8px;background:rgba(245,5,55,0.10);border:1px solid rgba(245,5,55,0.35);border-radius:8px;padding:6px 14px;margin-bottom:10px;font-size:.78rem;"><span style="font-size:1rem;">🐍</span><span style="color:var(--text-mid);">Python RandomForest:</span><strong style="color:var(--primary);">${flaskPrediction.recommended_car}</strong><span style="color:var(--text-dim);">${flaskPrediction.confidence}% confidence</span></div><br>`;
-  }
-  resultText.innerHTML = `${pythonMLBadge}<div style="font-size:.95rem;line-height:1.7">${aiIntro || `Here are the best <strong>${filterState.body||'cars'}</strong> for your budget — ranked by MOTOAI based on safety, value, and your preferences.`}</div>`;
-
+ resultText.innerHTML = `<div style="font-size:.95rem;line-height:1.7"> 
+  ${aiIntro || `Here are the best <strong>${filterState.body || 'cars'}</strong> for your budget — ranked by MOTOAI based on safety, value, and your preferences.`}
+  </div>`;
+ 
   // Render multiple car result cards
   renderMultipleCarResults(topResults);
 
